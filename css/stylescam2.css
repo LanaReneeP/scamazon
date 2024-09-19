@@ -1,0 +1,127 @@
+:root {
+    ---prim: #273526;
+    ---tert: #E4E6D9;
+    ---grad:linear-gradient(
+    var(---prim), var(---sec), #803e2f;
+    )
+    ---font1: "Arsenal SC", sans-serif;
+}
+
+
+* {box-sizing: border-box;}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: var(---tert);
+}
+
+.banner-image {
+    height: 20vh;
+}
+
+.search-bar2 {
+    color: var(---prim);
+    background-color: var(---tert);
+}
+
+.search-bar2:hover {
+    background-color: var(---prim);
+    color: var(---tert);
+    border: 1px solid var(---tert);
+}
+
+header {
+    background-color: var(---prim);
+}
+
+.header-link {
+    color: var(---tert);
+}
+
+.header-link:hover {
+    border: 1px solid var(---tert);
+    color: var(---tert);
+    border-radius: 10px;
+}
+
+.bar-link {
+    color: var(---tert);
+}
+
+.bar-link:hover {
+    color: var(---tert);
+    border: 1px solid var(---tert);
+    border-radius: 10px;
+}
+
+.pulldown-bar {
+    color: var(---prim);
+}
+
+.pulldown-bar:hover {
+    color: var(---prim);
+    background-color: var(---tert);
+}
+
+.my-card-body {
+    background-color: var(---prim);
+    color: var(---tert);
+}
+
+.my-card-header {
+    color: var(---tert);
+}
+
+.grimm-book {
+    height: 300px;
+}
+
+
+
+.price-text {
+    color: var(---tert);
+}
+
+footer {
+    background-color: var(---prim);
+}
+
+.footer-text {
+    color: var(---tert);
+    text-decoration: none;
+    border: 1px solid var(---tert);
+}
+
+.footer-text:hover {
+    background-color: var(---tert);
+    color: var(---prim);
+    border: 1ps solid var(---prim);
+}
+
+.footer-heading {
+    color: var(---tert);
+}
+
+.footer-link {
+    color: var(---tert);
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.footer-link:hover {
+    color: var(---prim);
+    border: 1px solid var(---tert);
+    background-color: var(---tert);
+}
+
+.colophon {
+    color: var(---tert);
+}
+
+#logo {
+    color: var(---tert);
+}

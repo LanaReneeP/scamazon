@@ -3,7 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="css/stylescam.css"> -->
+    <link rel="stylesheet" href="css/stylescam2.css">
     <title>scamazon</title>
 </head>
 <body>
@@ -16,22 +21,22 @@
                     </div>
                     <div class="col-sm-7">
                         <form action="#" class="form form-floating">
-                            <input type="search" class="form-control" id="searchForm" placeholder="search" />
+                            <input type="search" class="form-control search-bar1" id="searchForm" placeholder="search" />
                             <label for="searchForm">Search</label>
                         </form>
                     </div>
                     <div class="col-sm-3">
                         <nav class="nav justify-content-end" id="headerNav">
-                            <a href="#" class="nav-link">Lorem.</a>
-                            <a href="#" class="nav-link">Repudiandae.</a>
-                            <a href="#" class="nav-link">Vero!</a>
+                            <a href="#" class="nav-link header-link">Lorem.</a>
+                            <a href="#" class="nav-link header-link">Repudiandae.</a>
+                            <a href="#" class="nav-link header-link">Vero!</a>
                         </nav>
                     </div>
                 </div>
             </div>
         </section>
         <section class="section" id="section2">
-            <nav class="navbar nav-bar-lg">
+            <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
                     <button 
                         class="navbar-toggler" 
@@ -47,56 +52,56 @@
                     <div class="collapse navbar-collapse" id="topNavbar">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a href="#" class="nav-link navbar-link">jewelry</a>
+                                <a href="#" class="nav-link navbar-link bar-link">jewelry</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link navbar-link">apperel</a>
+                                <a href="#" class="nav-link navbar-link bar-link">apperel</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a href="#" 
-                                class="nav-link navbar-link dropdown-toggle"
+                                class="nav-link navbar-link dropdown-toggle bar-link"
                                 role="button"
                                 data-bs-toggle="dropdown"
                                 aria-expanded="false"
                                 >music</a>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a href="#" class="dropdown-item">Jazz</a>
+                                        <a href="#" class="dropdown-item bar-link pulldown-bar">Jazz</a>
                                     </li>
                                     <li>
-                                        <a href="#" class="dropdown-item">Blues</a>
+                                        <a href="#" class="dropdown-item bar-link pulldown-bar">Blues</a>
                                     </li>
                                     <li>
-                                        <a href="#" class="dropdown-item">Rock</a>
+                                        <a href="#" class="dropdown-item bar-link pulldown-bar">Rock</a>
                                     </li>
                                     <li>
-                                        <a href="#" class="dropdown-item">Hip-Hop</a>
+                                        <a href="#" class="dropdown-item bar-link pulldown-bar">Hip-Hop</a>
                                     </li>
                                     <li>
-                                        <a href="#" class="dropdown-item">Indie</a>
+                                        <a href="#" class="dropdown-item bar-link pulldown-bar">Indie</a>
                                     </li>
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link navbar-link">furniture</a>
+                                <a href="#" class="nav-link navbar-link bar-link">furniture</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link navbar-link">electronics</a>
+                                <a href="#" class="nav-link navbar-link bar-link">electronics</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link navbar-link">kitchen</a>
+                                <a href="#" class="nav-link navbar-link bar-link">kitchen</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link navbar-link">sport</a>
+                                <a href="#" class="nav-link navbar-link bar-link">sport</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link navbar-link">books</a>
+                                <a href="#" class="nav-link navbar-link bar-link">books</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link navbar-link">movies</a>
+                                <a href="#" class="nav-link navbar-link bar-link">movies</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link navbar-link">outdoor</a>
+                                <a href="#" class="nav-link navbar-link bar-link">outdoor</a>
                             </li>
                         </ul>
                         <form action="#" class="nav-form d-flex" role="search">
@@ -104,7 +109,7 @@
                             class="form-control me-2" 
                             aria-lable="search" 
                             />
-                            <button class="btn btn-outline-light" type="submit">Search</button>
+                            <button class="btn btn-outline-light search-bar2" type="submit">Search</button>
                         </form>
                     </div>
                 </div>
@@ -113,116 +118,151 @@
     </header>
     <main class="main" id="main">
         <!-- banner section -->
-        <section class="section" id="bannerSection">
+        <section class="section mb-4" id="bannerSection">
             <div class="container-fluid">
-                <img src="https://via.placeholder.com/50x50" alt="placeholder img" class="img-fluid image banner-image w-100" />
+                <img src="images/banner_image2.jpg" alt="placeholder img" class="img-fluid image banner-image w-100" />
             </div>
         </section>
-        <section class="section" id="leadSection">
+        <section class="section mb-4" id="leadSection">
             <div class="container">
                 <div class="row">
                     <div class="col-md-3 col-6">
-                        <div class="card lead-items">
+                        <div class="card lead-items my-card-body">
                             <header class="card-header">
-                                <h2 class="display-1">Lorem, ipsum.</h2>
+                                <h2 class="display-6 my-card-header">Most popular ablum bought this year!!!</h2>
                             </header>
-                            <img src="https://via.placeholder.com/50x50" alt="placeholder img" class="img-fluid image card-img" />
+                            <img src="images/another_brick_in_the_wall.jpeg" alt="another brick in the wall ablum cover" class="img-fluid image card-img" />
                             <div class="card-body">
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, cupiditate.</p>
+                                <p class="card-text">Another brick in the wall full ablum.</p>
                             </div>
                             <footer class="card-footer">
-                                <p class="card-text price">$20.00</p>
+                                <p class="card-text price price-text">$20.00</p>
                                 <button class="btn btn-primary text-capitalize">add to cart</button>
                                 <button class="btn btn-warning text-capitalize">buy now</button>
                             </footer>
                         </div>
                     </div>
                     <div class="col-md-3 col-6">
-                        <div class="card lead-items">
+                        <div class="card lead-items my-card-body">
                             <header class="card-header">
-                                <h2 class="display-1">Lorem, ipsum.</h2>
+                                <h2 class="display-6 my-card-header">The most cpopies of a book sold this year!!!</h2>
                             </header>
-                            <img src="https://via.placeholder.com/50x50" alt="placeholder img" class="img-fluid image card-img" />
+                            <img src="images/grimms.jpg" alt="brothers grimm book" class="img-fluid image card-img grimm-book" />
                             <div class="card-body">
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, cupiditate.</p>
+                                <p class="card-text">"Grimm's Fairy Tales, are a collection of stories that are known for their unique themes, morals, and style"</p>
                             </div>
                             <footer class="card-footer">
-                                <p class="card-text price">$20.00</p>
+                                <p class="card-text price price-text">$25.00</p>
                                 <button class="btn btn-primary text-capitalize">add to cart</button>
                                 <button class="btn btn-warning text-capitalize">buy now</button>
                             </footer>
                         </div>
                     </div>
                     <div class="col-md-3 col-6">
-                        <div class="card lead-items">
+                        <div class="card lead-items my-card-body">
                             <header class="card-header">
-                                <h2 class="display-1">Lorem, ipsum.</h2>
+                                <h2 class="display-6 my-card-header">Most liked movie for our shoppers!!!</h2>
                             </header>
-                            <img src="https://via.placeholder.com/50x50" alt="placeholder img" class="img-fluid image card-img" />
+                            <img src="images/john_wick2.jpg" alt="John Wick movie" class="img-fluid image card-img john-image" />
                             <div class="card-body">
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, cupiditate.</p>
+                                <p class="card-text">"An ex-hit-man comes out of retirement to track down the gangsters that killed his dog and took everything from him"</p>
                             </div>
                             <footer class="card-footer">
-                                <p class="card-text price">$20.00</p>
+                                <p class="card-text price price-text">$25.00</p>
                                 <button class="btn btn-primary text-capitalize">add to cart</button>
                                 <button class="btn btn-warning text-capitalize">buy now</button>
                             </footer>
                         </div>
                     </div>
                     <div class="col-md-3 col-6">
-                        <div class="card lead-items">
+                        <div class="card lead-items my-card-body">
                             <header class="card-header">
-                                <h2 class="display-1">Lorem, ipsum.</h2>
+                                <h2 class="display-6 my-card-header">Bought out of stock 5 time in a month!!!</h2>
                             </header>
-                            <img src="https://via.placeholder.com/50x50" alt="placeholder img" class="img-fluid image card-img" />
+                            <img src="images/gold_chain.jpg" alt="placeholder img" class="img-fluid image card-img" />
                             <div class="card-body">
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, cupiditate.</p>
+                                <p class="card-text">These beautiful and elegant gold chains are made of 24 carat authentic gold.</p>
                             </div>
                             <footer class="card-footer">
-                                <p class="card-text price">$20.00</p>
+                                <p class="card-text price price-text">$30.00</p>
                                 <button class="btn btn-primary text-capitalize">add to cart</button>
                                 <button class="btn btn-warning text-capitalize">buy now</button>
                             </footer>
                         </div>
-                        <div class="card lead-items">
-                            <header class="card-header">
-                                <h2 class="display-1">Lorem, ipsum.</h2>
+                    </div>  
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="item-image-div">
+                                <a href="#">
+                                    <img src="https://via.placeholder.com/50x50" alt="placeholder img" class="img-fluid w-100 promo-image image" />
+                                </a>
+                            </div>
+                        </div>
+                    <div class="col-md-3 col-6">
+                        <div class="card lead-items my-card-body">
+                            <header class="card-heade">
+                                <h2 class="display-5 my-card-header">Lorem, ipsum.</h2>
                             </header>
                             <img src="https://via.placeholder.com/50x50" alt="placeholder img" class="img-fluid image card-img" />
                             <div class="card-body">
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, cupiditate.</p>
                             </div>
                             <footer class="card-footer">
-                                <p class="card-text price">$20.00</p>
+                                <p class="card-text price price-text">$20.00</p>
                                 <button class="btn btn-primary text-capitalize">add to cart</button>
                                 <button class="btn btn-warning text-capitalize">buy now</button>
                             </footer>
                         </div>
-                        <div class="card lead-items">
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="card lead-items my-card-body">
                             <header class="card-header">
-                                <h2 class="display-1">Lorem, ipsum.</h2>
+                                <h2 class="display-5 my-card-header">Lorem, ipsum.</h2>
                             </header>
                             <img src="https://via.placeholder.com/50x50" alt="placeholder img" class="img-fluid image card-img" />
                             <div class="card-body">
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, cupiditate.</p>
                             </div>
                             <footer class="card-footer">
-                                <p class="card-text price">$20.00</p>
+                                <p class="card-text price price-text">$20.00</p>
                                 <button class="btn btn-primary text-capitalize">add to cart</button>
                                 <button class="btn btn-warning text-capitalize">buy now</button>
                             </footer>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="item-image-div">
-                            <a href="#"><img src="https://via.placeholder.com/50x50" alt="placeholder img" class="img-fluid w-100 promo-image image" />
-                            </a>
+                    <!-- <div class="col-md-3 col-6">
+                        <div class="card lead-items">
+                            <header class="card-header">
+                                <h2 class="display-1">Lorem, ipsum.</h2>
+                            </header>
+                            <img src="https://via.placeholder.com/50x50" alt="placeholder img" class="img-fluid image card-img" />
+                            <div class="card-body">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, cupiditate.</p>
+                            </div>
+                            <footer class="card-footer">
+                                <p class="card-text price">$20.00</p>
+                                <button class="btn btn-primary text-capitalize">add to cart</button>
+                                <button class="btn btn-warning text-capitalize">buy now</button>
+                            </footer>
                         </div>
-                    </div>
-                    <div class="col-md-3 col-6"></div>
-                    <div class="col-md-3 col-6"></div>
+                    </div> -->
+                    <!-- <div class="col-md-3 col-6">
+                        <div class="card lead-items">
+                            <header class="card-header">
+                                <h2 class="display-1">Lorem, ipsum.</h2>
+                            </header>
+                            <img src="https://via.placeholder.com/50x50" alt="placeholder img" class="img-fluid image card-img" />
+                            <div class="card-body">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, cupiditate.</p>
+                            </div>
+                            <footer class="card-footer">
+                                <p class="card-text price">$20.00</p>
+                                <button class="btn btn-primary text-capitalize">add to cart</button>
+                                <button class="btn btn-warning text-capitalize">buy now</button>
+                            </footer>
+                        </div>
+                    </div> -->
                 </div>
                 <!-- /.row -->
             </div>
@@ -290,7 +330,7 @@
         <section class="section" id="footerSection1">
             <div class="container-fluid">
                 <p class="footer-sec1-text text-center text-capitalize">
-                    <a href="#header" class="footer-sec1-link">back to top</a>
+                    <a href="#header" class="footer-sec1-link footer-text">back to top</a>
                 </p>
             </div>
         </section>
@@ -302,59 +342,28 @@
                             <h2 class="footer-heading">Lorem ipsum dolor sit.</h2>
                             <ul class="list-unstyled footer-list">
                                 <li class="footer-list-item">
-                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                    <a href="#" class="list-link footer-link">Lorem, ipsum.</a>
                                 </li>
                                 <li class="footer-list-item">
-                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                    <a href="#" class="list-link footer-link">Lorem, ipsum.</a>
                                 </li>
                                 <li class="footer-list-item">
-                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                    <a href="#" class="list-link footer-link">Lorem, ipsum.</a>
                                 </li>
                                 <li class="footer-list-item">
-                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                    <a href="#" class="list-link footer-link">Lorem, ipsum.</a>
                                 </li>
                                 <li class="footer-list-item">
-                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                    <a href="#" class="list-link footer-link">Lorem, ipsum.</a>
                                 </li>
                                 <li class="footer-list-item">
-                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                    <a href="#" class="list-link footer-link">Lorem, ipsum.</a>
                                 </li>
                                 <li class="footer-list-item">
-                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                    <a href="#" class="list-link footer-link">Lorem, ipsum.</a>
                                 </li>
                                 <li class="footer-list-item">
-                                    <a href="#" class="list-link">Lorem, ipsum.</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="footer-boxes" id="footerBox1">
-                            <h2 class="footer-heading">Lorem ipsum dolor sit.</h2>
-                            <ul class="list-unstyled footer-list">
-                                <li class="footer-list-item">
-                                    <a href="#" class="list-link">Lorem, ipsum.</a>
-                                </li>
-                                <li class="footer-list-item">
-                                    <a href="#" class="list-link">Lorem, ipsum.</a>
-                                </li>
-                                <li class="footer-list-item">
-                                    <a href="#" class="list-link">Lorem, ipsum.</a>
-                                </li>
-                                <li class="footer-list-item">
-                                    <a href="#" class="list-link">Lorem, ipsum.</a>
-                                </li>
-                                <li class="footer-list-item">
-                                    <a href="#" class="list-link">Lorem, ipsum.</a>
-                                </li>
-                                <li class="footer-list-item">
-                                    <a href="#" class="list-link">Lorem, ipsum.</a>
-                                </li>
-                                <li class="footer-list-item">
-                                    <a href="#" class="list-link">Lorem, ipsum.</a>
-                                </li>
-                                <li class="footer-list-item">
-                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                    <a href="#" class="list-link footer-link">Lorem, ipsum.</a>
                                 </li>
                             </ul>
                         </div>
@@ -364,28 +373,28 @@
                             <h2 class="footer-heading">Lorem ipsum dolor sit.</h2>
                             <ul class="list-unstyled footer-list">
                                 <li class="footer-list-item">
-                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                    <a href="#" class="list-link footer-link">Lorem, ipsum.</a>
                                 </li>
                                 <li class="footer-list-item">
-                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                    <a href="#" class="list-link footer-link">Lorem, ipsum.</a>
                                 </li>
                                 <li class="footer-list-item">
-                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                    <a href="#" class="list-link footer-link">Lorem, ipsum.</a>
                                 </li>
                                 <li class="footer-list-item">
-                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                    <a href="#" class="list-link footer-link">Lorem, ipsum.</a>
                                 </li>
                                 <li class="footer-list-item">
-                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                    <a href="#" class="list-link footer-link">Lorem, ipsum.</a>
                                 </li>
                                 <li class="footer-list-item">
-                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                    <a href="#" class="list-link footer-link">Lorem, ipsum.</a>
                                 </li>
                                 <li class="footer-list-item">
-                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                    <a href="#" class="list-link footer-link">Lorem, ipsum.</a>
                                 </li>
                                 <li class="footer-list-item">
-                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                    <a href="#" class="list-link footer-link">Lorem, ipsum.</a>
                                 </li>
                             </ul>
                         </div>
@@ -395,28 +404,59 @@
                             <h2 class="footer-heading">Lorem ipsum dolor sit.</h2>
                             <ul class="list-unstyled footer-list">
                                 <li class="footer-list-item">
-                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                    <a href="#" class="list-link footer-link">Lorem, ipsum.</a>
                                 </li>
                                 <li class="footer-list-item">
-                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                    <a href="#" class="list-link footer-link">Lorem, ipsum.</a>
                                 </li>
                                 <li class="footer-list-item">
-                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                    <a href="#" class="list-link footer-link">Lorem, ipsum.</a>
                                 </li>
                                 <li class="footer-list-item">
-                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                    <a href="#" class="list-link footer-link">Lorem, ipsum.</a>
                                 </li>
                                 <li class="footer-list-item">
-                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                    <a href="#" class="list-link footer-link">Lorem, ipsum.</a>
                                 </li>
                                 <li class="footer-list-item">
-                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                    <a href="#" class="list-link footer-link">Lorem, ipsum.</a>
                                 </li>
                                 <li class="footer-list-item">
-                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                    <a href="#" class="list-link footer-link">Lorem, ipsum.</a>
                                 </li>
                                 <li class="footer-list-item">
-                                    <a href="#" class="list-link">Lorem, ipsum.</a>
+                                    <a href="#" class="list-link footer-link">Lorem, ipsum.</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer-boxes" id="footerBox1">
+                            <h2 class="footer-heading">Lorem ipsum dolor sit.</h2>
+                            <ul class="list-unstyled footer-list">
+                                <li class="footer-list-item">
+                                    <a href="#" class="list-link footer-link">Lorem, ipsum.</a>
+                                </li>
+                                <li class="footer-list-item">
+                                    <a href="#" class="list-link footer-link">Lorem, ipsum.</a>
+                                </li>
+                                <li class="footer-list-item">
+                                    <a href="#" class="list-link footer-link">Lorem, ipsum.</a>
+                                </li>
+                                <li class="footer-list-item">
+                                    <a href="#" class="list-link footer-link">Lorem, ipsum.</a>
+                                </li>
+                                <li class="footer-list-item">
+                                    <a href="#" class="list-link footer-link">Lorem, ipsum.</a>
+                                </li>
+                                <li class="footer-list-item">
+                                    <a href="#" class="list-link footer-link">Lorem, ipsum.</a>
+                                </li>
+                                <li class="footer-list-item">
+                                    <a href="#" class="list-link footer-link">Lorem, ipsum.</a>
+                                </li>
+                                <li class="footer-list-item">
+                                    <a href="#" class="list-link footer-link">Lorem, ipsum.</a>
                                 </li>
                             </ul>
                         </div>
@@ -428,11 +468,12 @@
         <section class="section" id="footerSection3">
             <div class="container">
                 <p class="colophon text-center">site by 
-                    <a href="#" target="_blank">Renèe</a>&copy; 2024 
+                    <a href="#" target="_blank" class="colophon">Renèe</a>&copy; 2024 
                 </p>
                 <!-- <a href="mailto:lana.palmeter@gmail.com"></a> -->
             </div>
         </section>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

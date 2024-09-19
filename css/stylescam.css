@@ -1,0 +1,139 @@
+:root {
+    ---prim: #1f1d20;
+    ---tert: #a79986;
+    ---grad:linear-gradient(
+    var(---prim), var(---sec), #803e2f;
+    )
+    ---font1: "Arsenal SC", sans-serif;
+}
+
+
+* {box-sizing: border-box;}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: #856a5d;
+}
+
+footer {
+    background-color: #6a544a;
+    /* background-image: linear-gradient(#856a5d, #3e3d38); */
+}
+
+header {
+    background-image: linear-gradient(#c77306, #a84e1a,#856a5d);
+}
+
+/* .nav-link {
+    color: var(---tert);
+} */
+
+.header-link {
+    color: #1f1d20;
+}
+
+.header-link:hover {
+    color: var(---tert);
+    background-color: #3e3d38;
+    border-radius: 5px;
+}
+
+.banner-image {
+    height: 20vh;
+}
+
+.search-bar2 {
+    color: var(---tert);
+    background-color: #3e3d38;
+}
+
+.search-bar2:hover {
+    background-color: #ca4d12;
+}
+
+.colophon {
+    color: var(---tert);
+}
+
+.my-card-header {
+    color: var(---tert);
+}
+
+.my-card-body {
+    background-color: #803e2f;
+    color: var(---tert);
+}
+
+/* .card-top {
+    background-color: #1f1d20;
+} */
+
+.bar-link {
+    color: #1f1d20;
+    font-family: var(---font2);
+}
+
+.bar-link:hover {
+    color: var(---tert);
+    background-color: #3e3d38;
+    border-radius: 5px;
+}
+
+.footer-text {
+    color: var(---tert);
+    border: 1px solid var(---tert);
+    background-color: #1f1d20;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.footer-text:hover {
+    color: var(---tert);
+    border: 1px solid #1f1d20;
+    border-radius: 5px;
+    background-color: var(---tert);
+    color: #1f1d20;
+}
+
+.footer-heading {
+color: var(---tert);
+}
+
+.footer-link {
+    color: var(---prim);
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: var(---tert);
+    border: 1px solid var(---prim);
+    border-radius: 5px;
+    /* background-color: ; */
+}
+
+.price-text {
+    color: #000;
+}
+
+#footerSection1 {
+    background-image: linear-gradient(#856a5d, #6a544a);
+}
+
+#footerSection2 {
+    background-color: #6a544a;
+    background-image: linear-gradient(to bottom, #6a544a, #4f3f37);
+    /* border: 5px solid #3e3d38; */
+}
+
+#footerSection3 {
+    background-color: #4f3f37;
+    color: var(---tert);
+}
+
+#logo {
+    color: var(---tert);
+}
