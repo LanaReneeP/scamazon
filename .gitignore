@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/scamazon/FileContentIndex
+/.vs/scamazon/v17
+/.vs/slnx.sqlite
+/.vs/VSWorkspaceState.json
