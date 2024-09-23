@@ -118,6 +118,10 @@ footer {
     background-color: var(---tert);
 }
 
+.taggle {
+    color: var(---tert);
+}
+
 .colophon {
     color: var(---tert);
 }
